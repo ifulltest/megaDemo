@@ -1,0 +1,52 @@
+
+
+  Login page test
+    login process test
+      ✔ I goto login page (2006ms)
+      ✔ I input login name (4277ms)
+      ✔ I input login password (4106ms)
+      ✔ I uncheck the remember me (2064ms)
+      ✔ I submit login information (6056ms)
+
+  Myfiles page test
+    the createFileProcess test
+      ✔ I goto myfiles page (1004ms)
+      ✔ I right click (4083ms)
+      ✔ I click new text file (1065ms)
+      ✔ I name the file (6187ms)
+      ✔ I click create button (21084ms)
+      ✔ I close the opened file (1076ms)
+    the editFileProcess test
+      ✔ I right click and open the given file (8304ms)
+      ✔ I edit the file content (3126ms)
+      ✔ I save the file content (17076ms)
+      ✔ I close the opened file (1035ms)
+      ✔ I check the edit process is successful by the given file name (1015ms)
+    the renameFileProcess test
+      ✔ I invoke the rename file function (3294ms)
+      ✔ I rename the file (5149ms)
+      ✔ I click rename button (10067ms)
+      ✔ I check the rename file process is successful by the given file name (2011ms)
+    the deleteFileProcess test
+      ✔ I invoke the delete file function (3377ms)
+      ✔ I confirm to delete (5051ms)
+      ✔ I check the delete file process is successful by the given file name (2011ms)
+    the resttoreFileProcess test
+      ✔ I goto the rubbish bin page (6218ms)
+      ✔ I invoke the restore file function (8436ms)
+      ✔ I check the restore file process is successful by the given file name (2011ms)
+
+  Download page test
+    the download winApp process test
+      ✔ I goto download page (5244ms)
+the given app is downloaded
+Found the given app file in downloading path: true
+      ✔ I download the given app (21413ms)
+
+
+  28 passing (4m)
+
+[mochawesome] Report JSON saved to D:\Software\Selenium\Mega-SeleniumJS-Mocha-POM\report\autotestrpt.json
+
+[mochawesome] Report HTML saved to D:\Software\Selenium\Mega-SeleniumJS-Mocha-POM\report\autotestrpt.html
+
